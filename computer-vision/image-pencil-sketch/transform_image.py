@@ -28,4 +28,6 @@ blur_img = cv.blur(neg_img, (41, 11))
 # dividing gray scale image by blurred negative image to obtain 'pencil-like' features
 pencil_img = cv.divide(gray_img, 255-blur_img, scale=256)
 cv.imshow("Pencil Sketch Dog", pencil_img)
-cv.waitKey(0)
+# cv.waitKey(0)
+
+cv.imwrite('dog_pencil_img.jpg', pencil_img)
