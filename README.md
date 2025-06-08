@@ -26,10 +26,6 @@ This repository is a curated collection of projects, experiments, and notebooks 
 ## 🧭 How to Use
 
 - Browse the repository and open any Jupyter notebook (`.ipynb`) directly on GitHub or using [nbviewer](https://nbviewer.org/) for better rendering.
-- To run or experiment with the notebooks:
-  1. Clone the repository
-  2. Set up a Python environment (see below)
-  3. Open notebooks with Jupyter Lab or Jupyter Notebook
 
 ---
 
